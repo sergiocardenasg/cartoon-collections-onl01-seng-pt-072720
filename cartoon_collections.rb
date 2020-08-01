@@ -13,9 +13,7 @@ end
 def long_planeteer_calls(array)
   array.find do |call|
     call.length > 4
-    return false
   end
-  return true
 end
 
 def find_the_cheese (array)
