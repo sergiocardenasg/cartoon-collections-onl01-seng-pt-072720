@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(array)
   array.all? do |call|
-    call.
+    call.length 
   end
 end
 
